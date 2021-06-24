@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['next', 'next/core-web-vitals', 'airbnb-base', 'prettier'],
+  extends: ['airbnb-base', 'prettier'],
   env: {
     jest: true,
   },
