@@ -1,5 +1,10 @@
 name: Build and Deploy
-on: [push]
+on:
+  workflow_run:
+    workflows: ["Run Tests and Lints"]
+    branches: [main]
+    types:
+      - completed
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
