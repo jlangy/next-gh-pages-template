@@ -3,7 +3,6 @@ module.exports = {
   moduleNameMapper: {
     '^@components(.*)$': '<rootDir>/components$1',
     '^@pages(.*)$': '<rootDir>/pages$1',
-    '^@styles(.*)$': '<rootDir>/styles$1',
     // For css module handling
     '\\.css$': 'identity-obj-proxy',
   },
