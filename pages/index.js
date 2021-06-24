@@ -1,5 +1,5 @@
-import styles from "../styles/Home.module.css";
-import Header from "@components/Header";
+import Header from '@components/Header';
+import styles from '@styles/Home.module.css';
 
 export default function Home() {
   return (

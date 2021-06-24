@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   workflow_run:
-    workflows: ["Run Tests and Lints"]
+    workflows: ['Run Tests and Lints']
     branches: [main]
     types:
       - completed
