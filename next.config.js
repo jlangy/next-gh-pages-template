@@ -1,4 +1,6 @@
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: 'https://jlangy.github.io/next-gh-pages-template/',
+  assetPrefix: isProd ? 'https://jlangy.github.io/next-gh-pages-template/' : '',
 };
