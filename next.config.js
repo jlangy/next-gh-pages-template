@@ -1,4 +1,4 @@
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: '/next-gh-pages-template/',
+  assetPrefix: 'https://jlangy.github.io/next-gh-pages-template/',
 };
